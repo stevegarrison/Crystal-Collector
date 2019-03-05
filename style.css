@@ -1,0 +1,49 @@
+#crystals{
+    width: 15%;
+    height: 100px;
+}
+h1{
+font-family: 'Open Sans', sans-serif;
+font-size: 50px;
+}
+
+#banner{
+    background-image: url(https://www.gaia.com/wp-content/uploads/article-migration-image-how-to-work-with-crystals.png);
+    background-position: top;
+}
+
+#target-score-text{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#current-score-text{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wins-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+#losses-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.green{
+ background: url(https://thumbs.dreamstime.com/x/green-crystal-4228117.jpg);
+}
+
+.red{
+    background: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0310/9655/00_ruby_rippleB_shop_thumb.png);
+}
+
+.yellow{
+ background: url(https://assets.artbeads.com//_artbeads/2/10/1/ttb11-192.jpg);
+}
+
+.blue{
+ background: url(https://thumbs.dreamstime.com/t/abstract-blue-crystal-texture-background-holiday-62343021.jpg)
+}

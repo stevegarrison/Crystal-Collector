@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Collector</title>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container border pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <h1 class="col-md-10 text-center mt-2 pt-5 pb-5 border-light" id="banner">Crystal Collector!</h1>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div class="container pl-0">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <h5 class="col-md-10 border-bottom">
+                    Instructions:
+                </h5>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="container pl-0">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <p class="col-md-10 mb-5">To start the game click on one of the crystals. Each crystal is assigned a
+                        random value between 3 and 12 at the beginning of the game. It is your job to figure out what
+                        value each crystal holds and have your score equal the target score!</p>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center container">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3 border p-3 bg-light">
+                            <h5>Target Score:
+                                <div class="mt-5" id="target-score-text"></div>
+                            </h5>
+                        </div>
+                        <div class="col-md-3 border p-3 bg-light">
+                            <h5>Current Score:
+                            <div class="mt-5" id="current-score-text"></div>
+                        </h5>
+                        </div>
+                        <div class="col-md-4 border p-3 bg-light">
+                            <h5 id="losses">Crystals</h5>
+                            <button type="button" class="btn m-1 crystal green" id="crystals"></button>
+                            <button type="button" class="btn m-1 crystal red" id="crystals"></button>
+                            <button type="button" class="btn m-1 crystal yellow" id="crystals"></button>
+                            <button type="button" class="btn m-1 crystal blue" id="crystals"></button>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+                <div class="text-center container">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3 text-success border p-3 bg-light">
+                            <h4 id="wins">Wins</h4>
+                            <div id="wins-text"></div>
+                        </div>
+                        <div class="col-md-3 text-danger border p-3 bg-light">
+                            <h4>Losses</h4>
+                            <div id="losses-text"></div>
+                        </div>
+                        <div class="col-md-5"></div>
+
+                    </div>
+                    <div class="col-md-1 bg-light"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
